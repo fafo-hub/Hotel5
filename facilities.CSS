@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.current a{
+    color: red!important;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.navbar-link a:hover {
+    color: red!important;
+    font-size: 25px;
+}
+
+.navbar-link a:active {
+    background-color: pink;
+    /* font-size: 25px; */
+}
+
+/* Header */
+.header{
+    background-image: url("images/Rectangle 44.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 65vh;
+    width: 100%;
+    margin-bottom: 50px;
+}
+    
+.header h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.header button{
+    width: 250px;
+    padding: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+#arrow-icons{
+    display: inline;
+    position: relative;
+    top: 22px;
+    left: 50%;
+}
+
+#arrow-icons .fa-chevron-circle-left{
+    padding-right: 5px;
+}
+
+#arrow-icons .fa-chevron-circle-right{
+    padding-left: 5px;
+} 
+/* End Header */
+
+/* Gym Section */
+.first-text{
+    color: red;
+    text-align: center;
+}
+
+.second-text{
+    color: black;
+    text-align: center;
+}
+
+.second-section img {
+    width: 100%;
+}
+.text-center {
+    justify-content: space-between;
+}
+ /* End of Gym Section*/
+ 
+
+/* Testimony */
+.new-contain {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.review {
+    font-size: 45px;
+}
+.customer {
+    font-size: 40px;
+    color: red;
+}
+.new-contain span {
+    border: 1px solid red;
+    border-radius: 2px;
+    width: 66px;
+    height: 5px;
+    display: block;
+    background: red;
+}
+.container6 {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.box {
+    width: 250px;
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.box img {
+    width: 40px;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+.name {
+    display: inline-block;
+    margin-left: 55px;
+}
+.office {
+    display: inline-block;
+    margin-left: 60px;    
+}
+.comment {
+    text-align: center;
+    font-style: italic;
+}
+.name-1 {
+    margin-left: 65px;
+}
+.office-1 {
+    margin-left: 53px;
+}
+.name-2 {
+    margin-left: 70px;
+}
+.office-2 {
+    margin-left: 70px;
+} 
+
+/* End of Testimony */
+
+/* Footer */
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background:#F9F9F9;
+    width: 100%;
+    height: 45vh;
+}
+
+footer ul{
+    display: flex;
+    position: relative;
+    width: fit-content;
+    top: 95px;
+    left: 105px;
+    font-size: 20px;
+}
+
+footer ul li{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#footer-icon{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+footer section {
+    display: grid;
+    justify-content: center;
+}
+
+#copyright{
+    font-size: medium;
+    position: relative;
+    font-weight: 450;
+    top: 130px;
+    left: 57%;
+}
+#copyright span {
+    position: absolute;
+    left: -187px;
+}
+
+footer hr {
+    width: 50%;
+    position: relative;
+    top: 80px;
+    left: 28%;
+}
+/* End of FOOTER */
+
